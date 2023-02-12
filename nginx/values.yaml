@@ -1,0 +1,8 @@
+# Deployment values
+replicaCount: 3
+container:
+  image: nginx:latest
+  port: 80
+domain: vantus.dns.army
+# Ingress
+issuerName: letsencrypt-prod
