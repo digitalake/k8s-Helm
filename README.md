@@ -1,4 +1,5 @@
-# k8s-Helm
+<h1 align="center">k8s-Helm</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
 ---
 
@@ -24,7 +25,7 @@ So lets go through all the stages.
 
 ### <a name="helm">INSTALL HELM</a> | [ROADMAP](#road)
 
-There are several ways to install Helm. I prefer using apt for Debian based distos:
+There are several ways to install Helm. I prefer using apt for Debian based distros:
 
 ```
 curl https://baltocdn.com/helm/signing.asc | gpg --dearmor | sudo tee /usr/share/keyrings/helm.gpg > /dev/null
