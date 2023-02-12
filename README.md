@@ -1,7 +1,6 @@
 <h1 align="center">k8s-Helm</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
----
 
 ### <a name="road">ROADMAP</a>
   - #### [Info](#info)
