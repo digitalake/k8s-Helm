@@ -1,5 +1,7 @@
 # k8s-Helm
 
+---
+
 ### <a name="road">ROADMAP</a>
   - #### [Info](#info)
   - #### [Install Helm](#helm)
@@ -7,6 +9,7 @@
   - #### [Deploy Pacan-game via helm with Ingress configuration](#pacman)
   - #### [Deploy MERN stack via helm](#mern)
 
+---
 
 ### <a name="info">SOME INFO</a> | [ROADMAP](#road)
 
@@ -16,6 +19,8 @@ In this project i've:
   - installed MERN stack via Helm with plus ingress for routing 
     
 So lets go through all the stages.
+
+---
 
 ### <a name="helm">INSTALL HELM</a> | [ROADMAP](#road)
 
@@ -29,6 +34,8 @@ sudo apt-get update
 sudo apt-get install helm
 ```
 >Check other ways by link [here](https://helm.sh/docs/intro/install/)
+
+---
 
 ### <a name="nginx">NGINX HELM</a> | [ROADMAP](#road)
 
@@ -97,6 +104,8 @@ kubectl get pods
 ```
 <img src="https://user-images.githubusercontent.com/109740456/218329168-e7d520d8-7274-4db9-a5dc-e868599f5c31.png" width="550">
 
+---
+
 ### <a name="pacman">PACMAN HELM</a> | [ROADMAP](#road)
 
 For deploying Pacman i've prepared code [here](https://github.com/digitalake/k8s-Helm/tree/main/pacman):
@@ -129,6 +138,8 @@ https://<domain-name>
 Result:
 
 <img src="https://user-images.githubusercontent.com/109740456/218329268-0a31489f-bdbb-4453-b98d-1c1328b58169.png" width="550">
+
+---
 
 ### <a name="mern">MERN HELM</a> | [ROADMAP](#road)
 
