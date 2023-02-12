@@ -59,7 +59,7 @@ Checking deployed pods:
 ```
 kubectl get pods
 ```
-![Знімок екрана_20230212_174130](https://user-images.githubusercontent.com/109740456/218328668-4dab64e9-93a5-48a4-a466-43b45ad329e4.png)
+<img src="https://user-images.githubusercontent.com/109740456/218328668-4dab64e9-93a5-48a4-a466-43b45ad329e4.png" width="550">
 
 Checking if the Nginx is avaliable by public ip by typing URL:
 ```
@@ -69,7 +69,7 @@ https://<domain-name>/prefix
 
 Result:
 
-![Знімок екрана_20230212_174200](https://user-images.githubusercontent.com/109740456/218328783-b95bd402-d659-42a4-8040-cfbf1199e566.png)
+<img src="https://user-images.githubusercontent.com/109740456/218328783-b95bd402-d659-42a4-8040-cfbf1199e566.png" width="550">
 
 Creating customValues.yaml file:
 ```
@@ -83,7 +83,7 @@ Check the file:
 ```
 less customValues.yaml
 ```
-![Знімок екрана_20230212_174629](https://user-images.githubusercontent.com/109740456/218329115-3dfb86a9-75e3-4c79-a21f-f992ac62d5d0.png)
+<img src="https://user-images.githubusercontent.com/109740456/218329115-3dfb86a9-75e3-4c79-a21f-f992ac62d5d0.png" width="200">
 
 Upgrading with helm:
 ```
@@ -95,8 +95,7 @@ Check the changes were done to replication counter:
 ```
 kubectl get pods
 ```
-![Знімок екрана_20230212_174706](https://user-images.githubusercontent.com/109740456/218329168-e7d520d8-7274-4db9-a5dc-e868599f5c31.png)
-
+<img src="https://user-images.githubusercontent.com/109740456/218329168-e7d520d8-7274-4db9-a5dc-e868599f5c31.png" width="550">
 
 ### <a name="pacman">PACMAN HELM</a> | [ROADMAP](#road)
 
@@ -119,7 +118,7 @@ Checking deployed pods:
 ```
 kubectl get pods
 ```
-![Знімок екрана_20230212_180439](https://user-images.githubusercontent.com/109740456/218329214-1cba9207-d3be-4672-998c-110ff6482709.png)
+<img src="https://user-images.githubusercontent.com/109740456/218329214-1cba9207-d3be-4672-998c-110ff6482709.png" width="550">
 
 Checking if the Pacman is avaliable by public ip by typing URL:
 ```
@@ -129,8 +128,7 @@ https://<domain-name>
 
 Result:
 
-![Знімок екрана_20230212_185041](https://user-images.githubusercontent.com/109740456/218329268-0a31489f-bdbb-4453-b98d-1c1328b58169.png)
-
+<img src="https://user-images.githubusercontent.com/109740456/218329268-0a31489f-bdbb-4453-b98d-1c1328b58169.png" width="550">
 
 ### <a name="mern">MERN HELM</a> | [ROADMAP](#road)
 
@@ -149,15 +147,15 @@ helm install mern-stack bitnami/node
 
 Install the ingress via kubectl:
 ```
-kubectl apply -f <manidest>
+kubectl apply -f <manifest>
 ```
-![Знімок екрана_20230212_193357](https://user-images.githubusercontent.com/109740456/218329452-b13587fc-9529-45ce-927e-8ddd7a09fdd9.png)
+<img src="https://user-images.githubusercontent.com/109740456/218329452-b13587fc-9529-45ce-927e-8ddd7a09fdd9.png" width="500">
 
 Checking deployed pods:
 ```
 kubectl get pods
 ```
-![image](https://user-images.githubusercontent.com/109740456/218329499-d27b9591-0300-44f7-a4d9-cddc1c3f12fa.png)
+<img src="https://user-images.githubusercontent.com/109740456/218329499-d27b9591-0300-44f7-a4d9-cddc1c3f12fa.png" width="550">
 
 Checking if the MERN is avaliable by public ip by typing URL:
 ```
@@ -167,7 +165,8 @@ https://<domain-name>/prefix
 
 Result:
 
-![Знімок екрана_20230212_193348](https://user-images.githubusercontent.com/109740456/218329574-0996d86a-acd5-4315-9fb1-95876f7bfa33.png)
+<img src="https://user-images.githubusercontent.com/109740456/218329574-0996d86a-acd5-4315-9fb1-95876f7bfa33.png" width="550">
+
 
 
 
